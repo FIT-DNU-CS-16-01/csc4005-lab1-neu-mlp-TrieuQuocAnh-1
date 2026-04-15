@@ -1,0 +1,137 @@
+_wandb:
+    value:
+        cli_version: 0.26.0
+        e:
+            znrm38sxv47k37f49ev3s7847p83klsw:
+                args:
+                    - --data_dir
+                    - /duong_dan/NEU-CLS.zip
+                    - --project
+                    - csc4005-lab1-neu-mlp
+                    - --run_name
+                    - baseline_adamw
+                    - --optimizer
+                    - adamw
+                    - --lr
+                    - "0.001"
+                    - --weight_decay
+                    - "0.0001"
+                    - --dropout
+                    - "0.3"
+                    - --epochs
+                    - "20"
+                    - --batch_size
+                    - "32"
+                    - --img_size
+                    - "64"
+                    - --patience
+                    - "5"
+                    - --augment
+                    - --use_wandb
+                cpu_count: 6
+                cpu_count_logical: 12
+                cudaVersion: "12.9"
+                disk:
+                    /:
+                        total: "499148386304"
+                        used: "361188503552"
+                email: noioivedi@gmail.com
+                executable: C:\Users\Admin\anaconda3\envs\csc4005-dl\python.exe
+                git:
+                    commit: 0a2405aec67144999cdc65c86b3911a7ade0d5a7
+                    remote: https://github.com/FIT-DNU-CS-16-01/csc4005-lab1-neu-mlp-TrieuQuocAnh-1
+                gpu: NVIDIA GeForce GTX 1650
+                gpu_count: 1
+                gpu_nvidia:
+                    - architecture: Turing
+                      cudaCores: 896
+                      memoryTotal: "4294967296"
+                      name: NVIDIA GeForce GTX 1650
+                      uuid: GPU-4e1cf773-c42f-a116-5635-eb9ea46996e2
+                host: DESKTOP-J6G25L5
+                memory:
+                    total: "16469520384"
+                os: Windows-10-10.0.26200-SP0
+                program: -m src.train
+                python: CPython 3.10.20
+                root: C:\Code\Deep Learning\csc4005-lab1-neu-mlp-TrieuQuocAnh-1
+                startedAt: "2026-04-15T13:45:31.234535Z"
+                writerId: znrm38sxv47k37f49ev3s7847p83klsw
+        m: []
+        python_version: 3.10.20
+        t:
+            "1":
+                - 1
+                - 5
+                - 53
+            "2":
+                - 1
+                - 5
+                - 53
+            "3":
+                - 2
+                - 13
+                - 16
+            "4": 3.10.20
+            "5": 0.26.0
+            "8":
+                - 3
+            "12": 0.26.0
+            "13": windows-amd64
+augment:
+    value: true
+batch_size:
+    value: 32
+class_names:
+    value:
+        - Crazing
+        - Inclusion
+        - Patches
+        - Pitted_Surface
+        - Rolled-in_Scale
+        - Scratches
+data_dir:
+    value: /duong_dan/NEU-CLS.zip
+device:
+    value: cpu
+dropout:
+    value: 0.3
+epochs:
+    value: 20
+hidden_dims:
+    value:
+        - 512
+        - 256
+        - 64
+img_size:
+    value: 64
+input_dim:
+    value: 4096
+lr:
+    value: 0.001
+num_classes:
+    value: 6
+num_workers:
+    value: 0
+optimizer:
+    value: adamw
+patience:
+    value: 5
+project:
+    value: csc4005-lab1-neu-mlp
+resolved_data_dir:
+    value: C:\Code\Deep Learning\csc4005-lab1-neu-mlp-TrieuQuocAnh-1\data\NEU-CLS_extracted
+run_name:
+    value: baseline_adamw
+scheduler:
+    value: none
+seed:
+    value: 42
+test_size:
+    value: 0.15
+use_wandb:
+    value: true
+val_size:
+    value: 0.15
+weight_decay:
+    value: 0.0001

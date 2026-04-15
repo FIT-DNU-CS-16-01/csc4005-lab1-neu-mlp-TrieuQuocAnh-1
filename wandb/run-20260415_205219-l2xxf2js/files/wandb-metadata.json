@@ -1,0 +1,68 @@
+{
+  "os":  "Windows-10-10.0.26200-SP0",
+  "python":  "CPython 3.10.20",
+  "startedAt":  "2026-04-15T13:52:19.773123Z",
+  "args":  [
+    "--data_dir",
+    "data/NEU-CLS",
+    "--project",
+    "csc4005-lab1-neu-mlp",
+    "--run_name",
+    "run2_sgd_large_model",
+    "--optimizer",
+    "sgd",
+    "--lr",
+    "0.01",
+    "--weight_decay",
+    "0.00001",
+    "--dropout",
+    "0.1",
+    "--epochs",
+    "20",
+    "--batch_size",
+    "64",
+    "--img_size",
+    "64",
+    "--patience",
+    "5",
+    "--augment",
+    "--use_wandb",
+    "--hidden_dims",
+    "1024",
+    "512",
+    "256"
+  ],
+  "program":  "-m src.train",
+  "git":  {
+    "remote":  "https://github.com/FIT-DNU-CS-16-01/csc4005-lab1-neu-mlp-TrieuQuocAnh-1",
+    "commit":  "0a2405aec67144999cdc65c86b3911a7ade0d5a7"
+  },
+  "email":  "noioivedi@gmail.com",
+  "root":  "C:\\Code\\Deep Learning\\csc4005-lab1-neu-mlp-TrieuQuocAnh-1",
+  "host":  "DESKTOP-J6G25L5",
+  "executable":  "C:\\Users\\Admin\\anaconda3\\envs\\csc4005-dl\\python.exe",
+  "cpu_count":  6,
+  "cpu_count_logical":  12,
+  "gpu":  "NVIDIA GeForce GTX 1650",
+  "gpu_count":  1,
+  "disk":  {
+    "/":  {
+      "total":  "499148386304",
+      "used":  "361217818624"
+    }
+  },
+  "memory":  {
+    "total":  "16469520384"
+  },
+  "gpu_nvidia":  [
+    {
+      "name":  "NVIDIA GeForce GTX 1650",
+      "memoryTotal":  "4294967296",
+      "cudaCores":  896,
+      "architecture":  "Turing",
+      "uuid":  "GPU-4e1cf773-c42f-a116-5635-eb9ea46996e2"
+    }
+  ],
+  "cudaVersion":  "12.9",
+  "writerId":  "izcpg5jex0sw27k1ipw3eggogutbtr7s"
+}

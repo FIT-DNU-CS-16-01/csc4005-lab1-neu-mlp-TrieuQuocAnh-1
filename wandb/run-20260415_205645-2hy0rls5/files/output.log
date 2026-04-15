@@ -1,0 +1,23 @@
+Epoch 01/20 | train_loss=1.8314 train_acc=0.1651 | val_loss=1.7743 val_acc=0.1926 | lr=0.000300
+Epoch 02/20 | train_loss=1.7882 train_acc=0.1833 | val_loss=1.7696 val_acc=0.1889 | lr=0.000300
+Epoch 03/20 | train_loss=1.7831 train_acc=0.1643 | val_loss=1.7704 val_acc=0.2370 | lr=0.000300
+Epoch 04/20 | train_loss=1.7729 train_acc=0.1960 | val_loss=1.7650 val_acc=0.2407 | lr=0.000300
+Epoch 05/20 | train_loss=1.7728 train_acc=0.1857 | val_loss=1.7619 val_acc=0.2630 | lr=0.000300
+Epoch 06/20 | train_loss=1.7570 train_acc=0.2032 | val_loss=1.7420 val_acc=0.2556 | lr=0.000300
+Epoch 07/20 | train_loss=1.7595 train_acc=0.2040 | val_loss=1.7329 val_acc=0.2222 | lr=0.000300
+Epoch 08/20 | train_loss=1.7429 train_acc=0.2183 | val_loss=1.7213 val_acc=0.2556 | lr=0.000300
+Epoch 09/20 | train_loss=1.7339 train_acc=0.2183 | val_loss=1.7078 val_acc=0.2370 | lr=0.000300
+Epoch 10/20 | train_loss=1.7432 train_acc=0.2190 | val_loss=1.7035 val_acc=0.2519 | lr=0.000300
+Epoch 11/20 | train_loss=1.7285 train_acc=0.2302 | val_loss=1.6916 val_acc=0.2481 | lr=0.000300
+Epoch 12/20 | train_loss=1.7043 train_acc=0.2357 | val_loss=1.7021 val_acc=0.2370 | lr=0.000300
+Epoch 13/20 | train_loss=1.7176 train_acc=0.2468 | val_loss=1.6811 val_acc=0.2963 | lr=0.000300
+Epoch 14/20 | train_loss=1.7133 train_acc=0.2500 | val_loss=1.6745 val_acc=0.3000 | lr=0.000300
+Epoch 15/20 | train_loss=1.7090 train_acc=0.2468 | val_loss=1.6717 val_acc=0.3444 | lr=0.000300
+Epoch 16/20 | train_loss=1.7003 train_acc=0.2508 | val_loss=1.6620 val_acc=0.3333 | lr=0.000300
+Epoch 17/20 | train_loss=1.6957 train_acc=0.2524 | val_loss=1.6545 val_acc=0.3222 | lr=0.000300
+Epoch 18/20 | train_loss=1.6954 train_acc=0.2722 | val_loss=1.6539 val_acc=0.3889 | lr=0.000300
+Epoch 19/20 | train_loss=1.6889 train_acc=0.2778 | val_loss=1.6500 val_acc=0.3407 | lr=0.000300
+Epoch 20/20 | train_loss=1.6880 train_acc=0.2532 | val_loss=1.6416 val_acc=0.3889 | lr=0.000300
+Best val acc: 0.3889
+Test acc: 0.3963
+Saved outputs to: outputs\run3_regularized
